@@ -1,0 +1,21 @@
+#home {
+    height: 100vh;
+    background: linear-gradient(to right, #205072, #329d9c);
+    color: white;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+
+#skills{
+    margin-top: 70px;
+    background: linear-gradient(to right, #205072, #329d9c);
+}
+
+#projects .card { 
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#projects .card:hover {
+    box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
